@@ -5,11 +5,12 @@ import './styles/Appointments.css';
 const Appointments = ({ appointment }) => {
   const { name, start, end } = appointment;
   const offset = +moment(end).format('h') - moment(start).format('h');
-  const height = `${offset * 100}px`; 
+  const offsetMin = (+moment(end).format('m') - moment(start).format('m')) / 60;
+  const height = `${(offset + offsetMin) * 100 }px`; 
   const top = `${moment(start).format('H') * 100}px`;
-  console.log(moment(end).format('h'));
-  console.log(moment(start).format('h'));
-  console.log(+moment(end).format('h') - moment(start).format('h'));
+  console.log(height);
+  // console.log(moment(start).format('H:M'));
+  // console.log(+moment(end).format('h') - moment(start).format('h'));
   
   
   // const style = { height };
