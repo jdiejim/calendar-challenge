@@ -1,24 +1,19 @@
 .App {
-  text-align: center;
-}
-
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 80px;
-}
-
-.App-header {
-  background-color: #222;
-  height: 150px;
+  width: 100%;
+  height: 100vh;
   padding: 20px;
-  color: white;
+  overflow: hidden;
 }
 
-.App-intro {
-  font-size: large;
+.slot-list {
+  padding: 10px;
+  display: flex;
+  height: 90%;
+  overflow: scroll;
+  box-shadow: 0 10px 18px rgba(0,0,0,0.2), 0 14px 45px rgba(0,0,0,0.2);
 }
 
-@keyframes App-logo-spin {
-  from { transform: rotate(0deg); }
-  to { transform: rotate(360deg); }
+.appointment-times {
+  position: relative;
+  width: 100%;
 }
