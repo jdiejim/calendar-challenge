@@ -2,7 +2,14 @@
   position: absolute;
   top: 20px;
   left: 0;
-  background-color: red;
   width: 80%;
-  border: 1px solid black;
+  padding: 10px 20px;
+  border: 2px solid #6868FA;
+  border-radius: 5px;
+  box-shadow: 0 10px 18px rgba(0,0,0,0.1), 0 14px 45px rgba(0,0,0,0.1);
+}
+
+.appointment-title {
+  font-size: 30px;
+  font-weight: lighter;
 }
