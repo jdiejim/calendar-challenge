@@ -5,13 +5,25 @@
   width: 150px;
   height: 100px;
   padding: 0 10px;
+  background-color: #FFF;
 }
 
 .time-separator {
   height: 50%;
   width: 100%;
   padding: 0 5px;
-  border-top: 1px solid black;
   font-size: 16px;
   text-align: right;
+}
+
+.time-separator-half {
+  height: 50%;
+  width: 100%;
+  padding: 0 5px;
+  font-size: 12px;
+  text-align: right;
+}
+
+.slot span {
+  font-size: 12px;
 }
