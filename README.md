@@ -5,9 +5,9 @@
 
 Install [Node](https://nodejs.org/en/) to user npm command.
 
-Then clone repository.
+Step 1. Clone repository
 
-Install packages by running this command.
+Step 2. Install packages by running this command
 
 ```
 npm install
@@ -16,7 +16,7 @@ npm install
 
 ## Start
 
-To start application run this command.
+To start application run this command
 
 ```
 npm start
