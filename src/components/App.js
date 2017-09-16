@@ -73,7 +73,6 @@ class App extends Component {
     return (
       <div className="App">
         <h1 className="title">Calendar</h1>
-        <AddAppointment />
         <section className="slot-list">
           <section className="slot-times">
             {slots}
