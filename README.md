@@ -3,7 +3,7 @@
 
 ## Installation 
 
-Install [Node]() to user npm command.
+Install [Node](https://nodejs.org/en/) to user npm command.
 
 Then clone repository.
 
